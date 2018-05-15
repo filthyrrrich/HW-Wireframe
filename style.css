@@ -34,14 +34,35 @@ section {
 #article {
     top: 320px;
     left: 210px;
-    position: fixed;
+    position: absolute;
     width: 496px;
     height: 200px;
     color: #ebebeb;
     background: #777;
 }
 
+#h1 {
+    font-weight: bold;
+    margin: 20px;
+    top: 370px;
+    left: 210px;
+    position: absolute;
+    width: 456px;
+    height: 50px;
+    color: #777;
+    background: #ebebeb;
+}
 
+#p {
+    margin: 20px;
+    top: 430px;
+    left: 210px;
+    position: absolute;
+    width: 456px;
+    height: 50px;
+    color: #777;
+    background: #ebebeb;
+}
 aside {
     margin-top: 10px;
     padding: 10px;
