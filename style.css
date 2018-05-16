@@ -8,13 +8,7 @@ body {
     margin-left: 200px;
 }
 
-header {
-    padding: 20px;
-    margin-bottom: 10px;
-    background-color: #ebebeb;
-}
-
-nav {
+header, nav, footer {
     padding: 20px;
     margin-bottom: 10px;
     background-color: #ebebeb;
@@ -39,7 +33,7 @@ section {
     background: #777;
 }
 
-#h1 {
+#headertags {
     font-weight: bold;
     margin: 20px;
     top: 285px;
@@ -51,7 +45,7 @@ section {
     background: #ebebeb;
 }
 
-#p {
+#ptag {
     margin: 20px;
     top: 355px;
     left: 210px;
@@ -74,8 +68,5 @@ aside {
 footer {
     width: 920px;
     float: left;
-    padding: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    background: #ebebeb;
+    margin-top: 20px; 
 }
